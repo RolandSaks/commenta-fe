@@ -1,0 +1,7 @@
+.carousel-control:focus {
+    outline: none;
+    opacity: 0.5;
+}
+.carousel-control:hover {
+  opacity: 0.8;
+}
