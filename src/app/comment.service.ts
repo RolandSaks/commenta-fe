@@ -19,7 +19,6 @@ export class CommentService {
   }
 
   getCommentsTop10() {
-    console.log(this.getComments(this.api + 'getTop10ReactedComments'));
     return this.getComments(this.api + 'getTop10ReactedComments');
   }
 
